@@ -1,6 +1,6 @@
 
 # Traffic Scene Detection Web Service
----
+
 This repository contains a web service built with Flask and YOLOv5 for detecting objects in traffic scene images. It provides a simple REST API for uploading images and receiving detection results.
 
 ## Prerequisites
