@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>交通场景目标检测  </title>
+    <link rel="icon" type="image/png" href="/static/tuxiang.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css" />
+    <style>
+
+        body {
+            font-family: "LXGW WenKai", sans-serif;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .container {
+            padding-top: 50px;
+            text-align: center;
+        }
+        h1, h3 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .subtext {
+            font-size: 0.8em;
+            color: #fff;
+            margin-top: 10px;
+        }
+        #uploadForm {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+            display: inline-block;
+            width: 60%;
+            margin: 20px auto;
+        }
+        form label {
+            margin-bottom: 10px;
+            display: block;
+            color: #ddd;
+        }
+        form input[type="file"] {
+            margin-bottom: 20px;
+        }
+        form button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #c0392b;
+        }
+        #示意图区域 {
+            width: 60%;
+            height: auto;
+            margin: 30px auto;
+            background: rgba(0,0,0,0.5);
+            {#border: 1px dashed #ccc;#}
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #示意图区域 img {
+            border: 1px solid #fff; /* 白色的实线边框 */
+            width: 100%;
+            height: auto;
+        }
+         .title-icon {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 5px;
+            height: 35px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 >交通场景目标检测<img src="/static/man.svg" alt="图标" class="title-icon">
+        </h1>
+        <h3 class="subtext">AI Practicum of DLUT | Powered by YOLOv5</h3>
+        <h3 class="subtext">Accepting Images less than 10MB</h3>
+        <div id="示意图区域">
+            <img id="imageDisplay" src="/static/imgs/9.jpg" alt="默认示意图" class="img-fluid">
+        </div>
+        <div id="uploadForm">
+            <form id="uploadForm" enctype="multipart/form-data" action="/" method="post" onsubmit="return showAlertAndSubmit();">
+                <div class="mb-3">
+                    <label for="imageUpload" class="form-label">选择图片文件</label>
+                    <input type="file" class="form-control" id="imageUpload" name="file" accept="image/*" onchange="checkFileSize(this)" required>
+                </div>
+                <button type="submit" class="btn btn-primary">上传并检测</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showAlertAndSubmit() {
+            alert("正在处理图片，请稍后...");
+            return true;
+        }
+
+                function checkFileSize(input) {
+            if (input.files && input.files[0]) {
+                var fileSize = input.files[0].size / 1024 / 1024; // Convert size to MB
+                var maxSize = 10; // Maximum file size
+
+                if (fileSize > maxSize) {
+                    alert('文件大小不能超过10MB');
+                    input.value = ''; // Reset the input
+                    return false;
+                }
+            }
+            return true;
+        }
+
+         document.addEventListener('DOMContentLoaded', function() {
+        var images = [
+            '/static/imgs/1.jpg',
+            '/static/imgs/2.jpg',
+            '/static/imgs/3.jpg',
+            '/static/imgs/4.jpg',
+            '/static/imgs/5.jpg',
+            '/static/imgs/6.jpg',
+            '/static/imgs/7.jpg',
+            '/static/imgs/8.jpg',
+            '/static/imgs/9.jpg',
+            // 添加更多图片路径
+        ];
+        var currentIndex = 0;
+
+        function changeImage() {
+            document.getElementById('imageDisplay').src = images[currentIndex];
+            currentIndex = (currentIndex + 1) % images.length;
+        }
+        //切换图片
+        setInterval(changeImage, 2000);
+    });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe8d74b5-efd4-428c-8536-b899fe940460" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Mission.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/default_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/ISSUE_TEMPLATE/bug-report.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/ISSUE_TEMPLATE/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/ISSUE_TEMPLATE/feature-request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/ISSUE_TEMPLATE/question.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/README_cn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/dependabot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/workflows/ci-testing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/workflows/codeql-analysis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/workflows/docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/workflows/greetings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.github/workflows/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/.pre-commit-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/benchmarks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/classify/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/classify/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/classify/tutorial.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/classify/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/Argoverse.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/GlobalWheat2020.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/ImageNet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/Objects365.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/SKU-110K.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/VOC.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/VisDrone.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/coco.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/coco128-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/coco128.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/hyps/hyp.Objects365.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/hyps/hyp.VOC.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/hyps/hyp.scratch-high.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/hyps/hyp.scratch-low.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/hyps/hyp.scratch-med.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/images/bus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/images/zidane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/scripts/download_weights.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/scripts/get_coco.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/scripts/get_coco128.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/scripts/get_imagenet.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/data/xView.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/detect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/hubconf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/experimental.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/faster_cfg/fasternet_l.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/faster_cfg/fasternet_m.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/faster_cfg/fasternet_s.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/faster_cfg/fasternet_t0.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/faster_cfg/fasternet_t1.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/faster_cfg/fasternet_t2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/fasternet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/anchors.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov3-spp.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov3-tiny.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov3.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5-bifpn.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5-fpn.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5-p2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5-p34.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5-p6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5-p7.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5-panet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5l6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5m6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5n6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5s-LeakyReLU.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5s-ghost.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5s-transformer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5s6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/hub/yolov5x6.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/segment/yolov5l-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/segment/yolov5m-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/segment/yolov5n-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/segment/yolov5s-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/segment/yolov5x-seg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolov5l.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolov5m.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolov5n.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolov5s.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolov5s_CASE.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolov5s_combined.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolov5s_fasternet.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/models/yolov5x.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/segment/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/segment/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/segment/tutorial.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/segment/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/tutorial.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/augmentations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/autoanchor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/autobatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/aws/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/aws/mime.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/aws/resume.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/aws/userdata.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/callbacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/dataloaders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/docker/Dockerfile-arm64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/docker/Dockerfile-cpu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/downloads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/flask_rest_api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/flask_rest_api/example_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/flask_rest_api/restapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/general.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/google_app_engine/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/google_app_engine/additional_requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/google_app_engine/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/clearml/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/clearml/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/clearml/clearml_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/clearml/hpo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/comet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/comet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/comet/comet_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/comet/hpo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/wandb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/wandb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/wandb/log_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/wandb/sweep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/wandb/sweep.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loggers/wandb/wandb_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/segment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/segment/augmentations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/segment/dataloaders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/segment/general.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/segment/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/segment/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/segment/plots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/torch_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/utils/triton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/detect/yolov5-7.0/val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/imgs/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/man.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/processed/299.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/processed/580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/processed/581.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/processed/583.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/processed/585.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/return.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tuxiang.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/upload/299.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/upload/580.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/upload/581.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/upload/583.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/upload/585.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/preview_page.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2n2yCTYLkP9NZygFzyc1iTXga6v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/EdgeDownloads/Mission&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EdgeDownloads\Mission" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EdgeDownloads\Mission\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.Mission">
+    <configuration name="Mission" type="PythonConfigurationType" factoryName="Python">
+      <module name="Mission" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mission" type="Python.FlaskServer">
+      <module name="Mission" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe8d74b5-efd4-428c-8536-b899fe940460" name="Changes" comment="" />
+      <created>1728185338629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728185338629</updated>
+      <workItem from="1728185339733" duration="550000" />
+      <workItem from="1728186002683" duration="3520000" />
+      <workItem from="1728292489499" duration="1208000" />
+      <workItem from="1728356612494" duration="2495000" />
+      <workItem from="1728474849139" duration="15000" />
+      <workItem from="1729432125394" duration="1024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mission$Mission.coverage" NAME="Mission Coverage Results" MODIFIED="1728187694258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
