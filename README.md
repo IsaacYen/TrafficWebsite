@@ -11,13 +11,11 @@ Before you begin, ensure you have Python installed on your system. The web servi
 
 **Clone the Repository:**
 
-bash
 
 git clone https://github.com/yourusername/traffic-scene-detection.git
 
 **Create a Virtual Environment:**
 
-bash
 
 cd traffic-scene-detection
 
@@ -27,19 +25,16 @@ python -m venv venv
 
 **On Windows:**
 
-bash
 
 .\venv\Scripts\activate
 
 **On macOS and Linux:**
 
-bash
 
 source venv/bin/activate
 
 **Install Dependencies:**
 
-bash
 
 pip install -r requirements.txt
 
