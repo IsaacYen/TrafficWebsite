@@ -11,35 +11,40 @@ Before you begin, ensure you have Python installed on your system. The web servi
 
 **Clone the Repository:**
 
-
+```
 git clone https://github.com/yourusername/traffic-scene-detection.git
+```
 
 **Create a Virtual Environment:**
 
-
+```
 cd traffic-scene-detection
 
 python -m venv venv
+```
 
 **Activate the Virtual Environment:**
 
 **On Windows:**
 
-
+```
 .\venv\Scripts\activate
+```
 
 **On macOS and Linux:**
 
-
+```
 source venv/bin/activate
+```
 
 **Install Dependencies:**
 
-
+```
 pip install -r requirements.txt
+```
 
 **Run the Web Service:**
 
-bash
-
+```
 python -m flask run
+```
